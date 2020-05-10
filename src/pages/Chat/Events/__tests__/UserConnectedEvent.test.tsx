@@ -6,6 +6,10 @@ import UserConnectedEvent from '../UserConnectedEvent';
 
 import { ChatEvents } from '../../index';
 
+jest.mock('date-fns', () => ({
+  format: jest.fn().mockReturnValue('19/01/1970 09:24:01'),
+}));
+
 describe('UserConnectedEvent', () => {
   test('renders correctly for the user', () => {
     const { asFragment } = render(

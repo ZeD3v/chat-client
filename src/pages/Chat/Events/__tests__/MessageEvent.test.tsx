@@ -6,6 +6,10 @@ import MessageEvent from '../MessageEvent';
 
 import { ChatEvents } from '../../index';
 
+jest.mock('date-fns', () => ({
+  format: jest.fn().mockReturnValue('19/01/1970 09:24:01'),
+}));
+
 describe('MessageEvent', () => {
   test('renders correctly', () => {
     const { asFragment } = render(

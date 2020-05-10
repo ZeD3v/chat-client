@@ -16,7 +16,7 @@ exports[`MessageEvent renders correctly 1`] = `
       class="message-timestamp"
     >
       <span>
-        19/01/1970 12:24:01
+        19/01/1970 09:24:01
       </span>
     </div>
   </div>

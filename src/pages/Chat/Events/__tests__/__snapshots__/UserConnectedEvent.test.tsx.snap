@@ -5,7 +5,7 @@ exports[`UserConnectedEvent renders correctly for other users 1`] = `
   <div
     class="container"
   >
-    Test user 2 joined - 19/01/1970 12:24:01
+    Test user 2 joined - 19/01/1970 09:24:01
   </div>
 </DocumentFragment>
 `;
@@ -15,7 +15,7 @@ exports[`UserConnectedEvent renders correctly for the user 1`] = `
   <div
     class="container"
   >
-    You joined - 19/01/1970 12:24:01
+    You joined - 19/01/1970 09:24:01
   </div>
 </DocumentFragment>
 `;

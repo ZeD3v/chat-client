@@ -5,7 +5,7 @@ exports[`UserDisconnectedEvent renders correctly if user disconnected due to ina
   <div
     class="container"
   >
-    Test user 2 disconnected due to inactivity - 19/01/1970 12:24:01
+    Test user 2 disconnected due to inactivity - 19/01/1970 09:24:01
   </div>
 </DocumentFragment>
 `;
@@ -15,7 +15,7 @@ exports[`UserDisconnectedEvent renders correctly if user left 1`] = `
   <div
     class="container"
   >
-    Test user 2 left - 19/01/1970 12:24:01
+    Test user 2 left - 19/01/1970 09:24:01
   </div>
 </DocumentFragment>
 `;

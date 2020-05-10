@@ -6,6 +6,10 @@ import UserDisconnectedEvent from '../UserDisconnectedEvent';
 
 import { ChatEvents } from '../../index';
 
+jest.mock('date-fns', () => ({
+  format: jest.fn().mockReturnValue('19/01/1970 09:24:01'),
+}));
+
 describe('UserDisconnectedEvent', () => {
   test('renders correctly if user disconnected due to inactivity', () => {
     const { asFragment } = render(
