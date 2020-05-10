@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.inner-container {
+  background: rgb(255, 255, 255);
+  border-radius: 4px;
+  border: 1px solid rgb(187, 187, 189);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: 6rem 0;
+  height: 40rem;
+  max-width: 35rem;
+  position: relative;
+  width: 100%;
+}

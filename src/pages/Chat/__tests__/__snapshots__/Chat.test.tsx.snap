@@ -1,0 +1,58 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chat renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    <div
+      class="header"
+    >
+      <div />
+      <button
+        class="button button--simple"
+        type="button"
+      >
+        Disconnect
+      </button>
+    </div>
+    <div
+      class="messages-container"
+    />
+    <div
+      class="form-container"
+    >
+      <form
+        class="form"
+      >
+        <textarea
+          class="message-input"
+          data-testid="chat-message-input"
+        />
+        <button
+          class="button submit-button"
+          data-testid="chat-message-submit-btn"
+          type="submit"
+        >
+          Send!
+        </button>
+      </form>
+      <div
+        class="container container--overlay"
+        style="background: rgb(236, 236, 236);"
+      >
+        <div
+          class="inner-container"
+        >
+          <div
+            class="sphere"
+          />
+          <div
+            class="sphere sphere--2"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

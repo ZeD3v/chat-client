@@ -1,0 +1,39 @@
+.message {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+
+  .message-user {
+    font-size: 1.2rem;
+    margin-left: 1rem;
+    color: rgb(119, 119, 119);
+  }
+
+  .message-bubble {
+    margin-right: 2rem;
+    background: rgb(236, 236, 236);
+    padding: 0.5rem 0.8rem;
+    border-radius: 7px;
+
+    p {
+      margin: 0;
+    }
+  }
+
+  &--user {
+    align-items: flex-end;
+
+    .message-bubble {
+      background: rgb(0, 122, 255);
+      color: rgb(255, 255, 255);
+      margin-right: 0;
+      margin-left: 2rem;
+    }
+  }
+
+  .message-timestamp {
+    color: rgb(119, 119, 119);
+    font-size: 1rem;
+    margin: 0.2rem 0 0.4rem;
+  }
+}

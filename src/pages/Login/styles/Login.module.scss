@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.image-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-inner-container {
+  width: 50%;
+}
+
+.form-container {
+  align-items: center;
+  align-items: center;
+  background-color: rgb(236, 236, 236);
+  display: flex;
+  display: flex;
+  height: 6rem;
+  padding: 0 1rem;
+  position: relative;
+}
+
+.error {
+  position: absolute;
+  top: 0;
+  transform: translateY(-100%);
+  left: 0;
+  padding: 1rem;
+  right: 0;
+  background: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+}
+
+.error-icon {
+  display: flex;
+  margin-right: 0.5rem;
+  flex: 0 0 1.5rem;
+}
+
+.form {
+  display: flex;
+  flex: 1;
+  height: 3rem;
+}
+
+.username-input {
+  border: 1px solid rgb(204, 204, 204);
+  padding: 0 1rem;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  border-right: 0;
+  flex: 1;
+}
+
+.submit-button {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}

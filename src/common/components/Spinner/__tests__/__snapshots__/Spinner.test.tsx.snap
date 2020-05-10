@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Modal renders correctly 1`] = `
+<div>
+  <div
+    class="container"
+    style="background: rgb(255, 255, 255);"
+  >
+    <div
+      class="inner-container"
+    >
+      <div
+        class="sphere"
+      />
+      <div
+        class="sphere sphere--2"
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserConnectedEvent renders correctly for other users 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    Test user 2 joined - 19/01/1970 12:24:01
+  </div>
+</DocumentFragment>
+`;
+
+exports[`UserConnectedEvent renders correctly for the user 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    You joined - 19/01/1970 12:24:01
+  </div>
+</DocumentFragment>
+`;
