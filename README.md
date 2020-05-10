@@ -1,7 +1,11 @@
 # Chat client
 
+[![Build Status](https://travis-ci.com/jurgisrudaks/chat-client.svg?branch=master)](https://travis-ci.com/jurgisrudaks/chat-client)
+
 Simple chat client for [chat-server](https://github.com/jurgisrudaks/chat-server/), built using React, Socket.io and Typescript.
 **Note:** You will first need to setup [chat-server](https://github.com/jurgisrudaks/chat-server/) for this to connect to. for this client to work properly.
+
+![Screenshot](https://user-images.githubusercontent.com/4631864/81497891-2e88fc80-92ca-11ea-8942-8817d840a129.png)
 
 ## Available Scripts
 
