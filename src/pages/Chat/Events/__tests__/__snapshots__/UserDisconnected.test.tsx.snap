@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserDisconnectedEvent renders correctly if user disconnected due to inactivity 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    Test user 2 disconnected due to inactivity - 19/01/1970 09:24:01
+  </div>
+</DocumentFragment>
+`;
+
+exports[`UserDisconnectedEvent renders correctly if user left 1`] = `
+<DocumentFragment>
+  <div
+    class="container"
+  >
+    Test user 2 left - 19/01/1970 09:24:01
+  </div>
+</DocumentFragment>
+`;

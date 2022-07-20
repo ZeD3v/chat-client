@@ -1,0 +1,25 @@
+@import 'normalize.css/normalize';
+
+html,
+body {
+  height: 100%;
+}
+
+html {
+  font-size: 10px; // stylelint-disable-line unit-whitelist, sh-waqar/declaration-use-variable
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: rgb(82, 84, 97);
+  background: rgb(18, 1, 54);
+}
+
+#root {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}

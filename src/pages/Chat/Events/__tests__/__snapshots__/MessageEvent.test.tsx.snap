@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessageEvent renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="message message--user"
+  >
+    <div
+      class="message-bubble"
+    >
+      <p>
+        This is a test message
+      </p>
+    </div>
+    <div
+      class="message-timestamp"
+    >
+      <span>
+        19/01/1970 09:24:01
+      </span>
+    </div>
+  </div>
+</DocumentFragment>
+`;
